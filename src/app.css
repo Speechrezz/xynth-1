@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Montserrat;
+  }
+}
+
+@layer components {
+  .w-main {
+    @apply w-4/5 max-w-[72rem];
+  }
+
+  .btn {
+    @apply bg-accent-1 w-fit mx-auto px-6 py-5 rounded-xl text-2xl shadow-md
+      hover:bg-accent-1-hover transition-all;
+  }
+
+  .trans-wave {
+    @apply w-full bg-no-repeat bg-center bg-cover -mb-1 -mt-4;
+  }
+
+  .link-nav {
+    @apply text-neutral-1 text-xl hover:text-header-1 transition-all;
+  }
+}
+
+.wave-1 {
+  background-image: url('src/lib/res/svg/WaveTransition.svg');
+  aspect-ratio: 512/9;
+}
