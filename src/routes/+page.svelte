@@ -40,7 +40,7 @@
   <!-- Section 2 -->
   <div class="bg-base-3 flex justify-center">
     <div class="w-main flex flex-col align-middle">
-      <img src="/src/lib/res/img/rezonator.png" alt="Rezonator" class="rounded-3xl shadow-2xl -mt-[17rem]">
+      <img src="img/rezonator.png" alt="Rezonator" class="rounded-3xl shadow-2xl -mt-[17rem]">
       <h1 class="text-center font-medium text-7xl text-header-1 pt-32 pb-2">Tuning</h1>
       <p class="text-center text-2xl text-neutral-1 pt-2 mx-auto">
         Easily tune the six included resonators to create beautiful harmonies. Turn even the harshest of sounds into pleasing chords.
