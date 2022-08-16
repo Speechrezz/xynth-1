@@ -4,20 +4,16 @@
 </script>
 
 <style>
-  .bg-blob-1 {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('../lib/res/svg/TopBlob.svg');
-    background-size: 480px;
-  }
+  @tailwind components;
 
-  .bg-blob-2 {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('../lib/res/svg/BottomBlob.svg');
-    background-size: 480px;
-    background-position: bottom right;
-    background-position-y: calc(100%+10px);
+  @layer components {
+    .bg-blob-1 {
+      @apply bg-no-repeat bg-cover bg-[url('../lib/res/svg/TopBlob.svg')];
+    }
+
+    .bg-blob-2 {
+      @apply bg-no-repeat bg-[length:480px] bg-[url('../lib/res/svg/BottomBlob.svg')] bg-right-bottom;
+    }
   }
 </style>
 
@@ -26,8 +22,8 @@
 <main class="h-screen">
 
   <!-- Section 1 -->
-  <div class="bg-neutral-1 flex flex-col align-middle bg-blob-2">
-    <div class="bg-blob-1 h-[480px] w-[480px] absolute"></div>
+  <div class="bg-neutral-1 flex flex-col align-middle xl:bg-blob-2">
+    <div class="xl:bg-blob-1 h-[480px] w-[480px] absolute"></div>
     <div class="w-main flex flex-col align-middle mt-16 mx-auto">
       <h1 class="text-center font-medium text-7xl text-base-1 pt-32 pb-2">REZONATOR</h1>
       <p class="text-center text-3xl text-base-2 pt-2 border-t-2 border-slate-600 mx-auto">Add harmonic resonance to any sound.</p>
