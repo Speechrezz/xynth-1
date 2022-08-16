@@ -7,14 +7,14 @@
   .bg-blob-1 {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('src/lib/res/svg/TopBlob.svg');
+    background-image: url('../lib/res/svg/TopBlob.svg');
     background-size: 480px;
   }
 
   .bg-blob-2 {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('src/lib/res/svg/BottomBlob.svg');
+    background-image: url('../lib/res/svg/BottomBlob.svg');
     background-size: 480px;
     background-position: bottom right;
     background-position-y: calc(100%+10px);

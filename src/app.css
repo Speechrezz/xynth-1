@@ -28,6 +28,6 @@
 }
 
 .wave-1 {
-  background-image: url('src/lib/res/svg/WaveTransition.svg');
+  background-image: url('./lib/res/svg/WaveTransition.svg');
   aspect-ratio: 512/9;
 }
