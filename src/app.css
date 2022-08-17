@@ -29,11 +29,11 @@
   }
 
   .link-nav {
-    @apply text-neutral-1 text-lg sm:text-xl hover:text-header-1 transition-all;
+    @apply text-neutral-1 sm:text-xl hover:text-header-1 transition-all;
   }
 
   .text-h1 {
-    @apply text-center font-medium text-5xl lg:text-7xl;
+    @apply text-center font-medium text-4xl sm:text-5xl lg:text-7xl;
   }
 
   .text-h2 {
