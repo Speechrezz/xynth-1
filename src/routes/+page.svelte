@@ -19,10 +19,10 @@
 
 <Navbar />
 
-<main class="h-screen w-full overflow-x-clip flex flex-col align-middle">
+<main class="h-screen w-full overflow-x-clip">
 
   <!-- Section 1 -->
-  <div class="bg-neutral-1 flex flex-col align-middle xl:bg-blob-2">
+  <div class="bg-neutral-1 w-full flex flex-col align-middle xl:bg-blob-2">
     <div class="xl:bg-blob-1 h-[480px] w-[480px] absolute"></div>
     <div class="w-main flex flex-col align-middle mt-16 mx-auto">
       <h1 class="text-h1 text-base-1 pt-32 pb-2">REZONATOR</h1>
