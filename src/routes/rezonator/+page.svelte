@@ -8,11 +8,11 @@
 
   @layer components {
     .bg-blob-1 {
-      @apply bg-no-repeat bg-cover bg-[url('svg/TopBlob.svg')];
+      @apply bg-no-repeat bg-cover bg-[url('$lib/svg/TopBlob.svg')];
     }
 
     .bg-blob-2 {
-      @apply bg-no-repeat bg-[length:480px] bg-[url('svg/BottomBlob.svg')] bg-right-bottom;
+      @apply bg-no-repeat bg-[length:480px] bg-[url('$lib/svg/BottomBlob.svg')] bg-right-bottom;
     }
   }
 </style>
