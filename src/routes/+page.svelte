@@ -19,7 +19,7 @@
 
 <Navbar />
 
-<main class="h-screen overflow-x-clip">
+<main class="h-screen overflow-x-clip flex flex-col align-middle">
 
   <!-- Section 1 -->
   <div class="bg-neutral-1 flex flex-col align-middle xl:bg-blob-2">
@@ -28,7 +28,7 @@
       <h1 class="text-h1 text-base-1 pt-32 pb-2">REZONATOR</h1>
       <p class="text-h2 text-base-2 pt-2 border-t-2 border-slate-600 mx-auto">Add harmonic resonance to any sound.</p>
       <button class="btn mt-36 mb-12">Buy on Gumroad ($25) -></button>
-      <img src="img/rezonator.png" alt="Rezonator" class="rounded-3xl shadow-2xl mb-4 lg:-mb-[26rem]">
+      <img src="img/rezonator.png" alt="Rezonator" class="rounded-3xl shadow-2xl mb-4 lg:-mb-[26rem] z-10">
     </div>
   </div>
 
