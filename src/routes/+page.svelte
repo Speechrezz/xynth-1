@@ -14,7 +14,7 @@
       <p class="text-h2 text-neutral-1 mx-2 pt-2 sm:px-6 border-t-2 border-slate-600 sm:mx-auto">Software for producers, by producers.</p>
       <a href="/rezonator" class="mx-auto">
         <button class="btn mt-16 mb-4 lg:mt-36 lg:mb-24">View plugins
-          <img src="img/RightArrow.svg" alt="Arrow" class="ml-4">
+          <img src="img/RightArrow.svg" alt="Arrow" class="ml-4 my-auto">
         </button>
       </a>
     </div>
