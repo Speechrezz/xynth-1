@@ -25,14 +25,20 @@
   <div class="bg-neutral-1 w-full flex flex-col align-middle xl:bg-blob-2">
     <div class="xl:bg-blob-1 h-[480px] w-[480px] absolute"></div>
     <div class="w-main flex flex-col align-middle mt-16 mx-auto">
-      <h1 class="text-h1 text-base-1 pt-32 pb-2">REZONATOR</h1>
-      <p class="text-h2 text-base-2 pt-2 border-t-2 border-slate-600 mx-auto px-4">Add harmonic resonance to any sound.</p>
-      <button class="btn mt-36 mb-12">Buy on Gumroad ($25) -></button>
-      <img src="img/rezonator.png" alt="Rezonator" class="rounded-xl z-10 mb-4 shadow-md lg:rounded-3xl lg:shadow-2xl lg:-mb-[26rem]">
+      <h1 class="text-h1 text-base-1 pt-8 lg:pt-32 pb-2">REZONATOR</h1>
+      <p class="text-h2 text-base-2 pt-2 border-t-2 border-slate-600 mx-auto px-4">
+        Add harmonic resonance to any sound.
+      </p>
+      <button class="btn mt-16 mb-4 lg:mt-36 lg:mb-12">Buy on Gumroad ($25)
+        <img src="img/RightArrow.svg" alt="Arrow" class="ml-3">
+      </button>
+      <img src="img/rezonator.png" alt="Rezonator" class="rounded-xl z-10 mb-4 shadow-md 
+        lg:rounded-3xl lg:shadow-2xl lg:-mb-[26rem]
+        hover:scale-[102%] transition-all">
     </div>
   </div>
 
-  <div class="lg:trans-wave lg:wave-1"></div>
+  <div class="lg:trans-wave lg:wave-2"></div>
 
   <!-- Section 2 -->
   <div class="bg-base-3 flex justify-center">

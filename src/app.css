@@ -16,16 +16,22 @@
   }
 
   .btn {
-    @apply bg-accent-1 w-fit mx-auto px-6 py-5 rounded-xl text-xl lg:text-2xl shadow-md
-      hover:bg-accent-1-hover transition-all;
+    @apply bg-accent-1 w-fit mx-auto px-4 py-3 rounded-xl text-lg shadow-md flex
+      sm:px-6 sm:py-5 sm:text-xl
+      lg:text-2xl
+      hover:bg-accent-1-hover hover:scale-105 transition-all;
   }
 
   .trans-wave {
-    @apply w-[110%] bg-no-repeat bg-center bg-cover -mb-1 -mt-4 -mx-4;
+    @apply w-[110%] bg-no-repeat bg-center bg-cover -mb-1 -mx-4;
   }
 
   .wave-1 {
-    @apply aspect-[512/9] bg-[url('$lib/svg/WaveTransition.svg')];
+    @apply aspect-[2560/100] bg-[url('$lib/svg/WaveTransition1.svg')] -mt-10;
+  }
+
+  .wave-2 {
+    @apply aspect-[512/9] bg-[url('$lib/svg/WaveTransition2.svg')] -mt-4;
   }
 
   .link-nav {
@@ -37,7 +43,7 @@
   }
 
   .text-h2 {
-    @apply text-center text-2xl lg:text-3xl;
+    @apply text-center text-xl sm:text-2xl lg:text-3xl;
   }
 
   .text-h3 {
