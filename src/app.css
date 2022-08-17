@@ -21,7 +21,7 @@
   }
 
   .trans-wave {
-    @apply w-full bg-no-repeat bg-center bg-cover -mb-1 -mt-4;
+    @apply w-[110%] bg-no-repeat bg-center bg-cover -mb-1 -mt-4 -mx-4;
   }
 
   .wave-1 {
