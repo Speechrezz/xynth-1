@@ -16,7 +16,7 @@
   }
 
   .btn {
-    @apply bg-accent-1 w-fit mx-auto px-6 py-5 rounded-xl text-2xl shadow-md
+    @apply bg-accent-1 w-fit mx-auto px-6 py-5 rounded-xl text-xl lg:text-2xl shadow-md
       hover:bg-accent-1-hover transition-all;
   }
 
@@ -29,7 +29,7 @@
   }
 
   .link-nav {
-    @apply text-neutral-1 text-xl hover:text-header-1 transition-all;
+    @apply text-neutral-1 text-lg sm:text-xl hover:text-header-1 transition-all;
   }
 
   .text-h1 {
