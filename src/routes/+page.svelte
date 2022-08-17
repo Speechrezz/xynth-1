@@ -19,7 +19,7 @@
 
 <Navbar />
 
-<main class="h-screen w-full overflow-x-clip">
+<main class="h-screen w-full overflow-x-clip absolute">
 
   <!-- Section 1 -->
   <div class="bg-neutral-1 w-full flex flex-col align-middle xl:bg-blob-2">
