@@ -31,4 +31,16 @@
   .link-nav {
     @apply text-neutral-1 text-xl hover:text-header-1 transition-all;
   }
+
+  .text-h1 {
+    @apply text-center font-medium text-5xl lg:text-7xl;
+  }
+
+  .text-h2 {
+    @apply text-center text-2xl lg:text-3xl;
+  }
+
+  .text-h3 {
+    @apply text-center text-xl lg:text-2xl;
+  }
 }

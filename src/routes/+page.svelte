@@ -25,9 +25,10 @@
   <div class="bg-neutral-1 flex flex-col align-middle xl:bg-blob-2">
     <div class="xl:bg-blob-1 h-[480px] w-[480px] absolute"></div>
     <div class="w-main flex flex-col align-middle mt-16 mx-auto">
-      <h1 class="text-center font-medium text-7xl text-base-1 pt-32 pb-2">REZONATOR</h1>
-      <p class="text-center text-3xl text-base-2 pt-2 border-t-2 border-slate-600 mx-auto">Add harmonic resonance to any sound.</p>
-      <button class="btn mt-36 mb-72">Buy on Gumroad ($25) -></button>
+      <h1 class="text-h1 text-base-1 pt-32 pb-2">REZONATOR</h1>
+      <p class="text-h2 text-base-2 pt-2 border-t-2 border-slate-600 mx-auto">Add harmonic resonance to any sound.</p>
+      <button class="btn mt-36 mb-12">Buy on Gumroad ($25) -></button>
+      <img src="img/rezonator.png" alt="Rezonator" class="rounded-3xl shadow-2xl mb-4 lg:-mb-[26rem]">
     </div>
   </div>
 
@@ -36,9 +37,8 @@
   <!-- Section 2 -->
   <div class="bg-base-3 flex justify-center">
     <div class="w-main flex flex-col align-middle">
-      <img src="img/rezonator.png" alt="Rezonator" class="rounded-3xl shadow-2xl -mt-[17rem]">
-      <h1 class="text-center font-medium text-7xl text-header-1 pt-32 pb-2">Tuning</h1>
-      <p class="text-center text-2xl text-neutral-1 pt-2 mx-auto">
+      <h1 class="text-h1 text-header-1 pt-32 lg:pt-[32rem] pb-2">Tuning</h1>
+      <p class="text-h3 text-neutral-1 pt-2 pb-32 mx-auto">
         Easily tune the six included resonators to create beautiful harmonies. Turn even the harshest of sounds into pleasing chords.
       </p>
     </div>
