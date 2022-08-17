@@ -3,30 +3,15 @@
   import Footer from "$lib/comp/Footer.svelte";
 </script>
 
-<style>
-  @tailwind components;
-
-  @layer components {
-    .bg-blob-1 {
-      @apply bg-no-repeat bg-cover bg-[url('svg/TopBlob.svg')];
-    }
-
-    .bg-blob-2 {
-      @apply bg-no-repeat bg-[length:480px] bg-[url('svg/BottomBlob.svg')] bg-right-bottom;
-    }
-  }
-</style>
-
 <Navbar index={0}/>
 
 <main class="h-screen w-full overflow-x-clip absolute">
 
   <!-- Section 1 -->
-  <div class="bg-neutral-1 w-full flex flex-col align-middle xl:bg-blob-2">
-    <div class="xl:bg-blob-1 h-[480px] w-[480px] absolute"></div>
+  <div class="bg-base-1 w-full flex flex-col align-middle">
     <div class="w-main flex flex-col align-middle mt-16 mx-auto">
-      <h1 class="text-h1 text-base-1 pt-32 pb-2">HOME</h1>
-      <p class="text-h2 text-base-2 pt-2 border-t-2 border-slate-600 mx-auto">Add harmonic resonance to any sound.</p>
+      <h1 class="text-h1 text-header-1 pt-32 pb-4">Xynth</h1>
+      <p class="text-h2 text-neutral-1 pt-2 px-6 border-t-2 border-slate-600 mx-auto">Software for producers, by producers.</p>
       <button class="btn mt-36 mb-12">Buy on Gumroad ($25) -></button>
       <img src="img/rezonator.png" alt="Rezonator" class="rounded-xl z-10 mb-4 shadow-md lg:rounded-3xl lg:shadow-2xl lg:-mb-[26rem]">
     </div>
