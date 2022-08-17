@@ -12,7 +12,7 @@
 
 @layer components {
   .w-main {
-    @apply w-4/5 max-w-[72rem];
+    @apply w-11/12 max-w-[72rem];
   }
 
   .btn {
@@ -24,12 +24,11 @@
     @apply w-full bg-no-repeat bg-center bg-cover -mb-1 -mt-4;
   }
 
+  .wave-1 {
+    @apply aspect-[512/9] bg-[url('svg/WaveTransition.svg')];
+  }
+
   .link-nav {
     @apply text-neutral-1 text-xl hover:text-header-1 transition-all;
   }
-}
-
-.wave-1 {
-  background-image: url('./lib/res/svg/WaveTransition.svg');
-  aspect-ratio: 512/9;
 }

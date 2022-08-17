@@ -8,11 +8,11 @@
 
   @layer components {
     .bg-blob-1 {
-      @apply bg-no-repeat bg-cover bg-[url('../lib/res/svg/TopBlob.svg')];
+      @apply bg-no-repeat bg-cover bg-[url('svg/TopBlob.svg')];
     }
 
     .bg-blob-2 {
-      @apply bg-no-repeat bg-[length:480px] bg-[url('../lib/res/svg/BottomBlob.svg')] bg-right-bottom;
+      @apply bg-no-repeat bg-[length:480px] bg-[url('svg/BottomBlob.svg')] bg-right-bottom;
     }
   }
 </style>
@@ -31,7 +31,7 @@
     </div>
   </div>
 
-  <div class="trans-wave wave-1"></div>
+  <div class="lg:trans-wave lg:wave-1"></div>
 
   <!-- Section 2 -->
   <div class="bg-base-3 flex justify-center">
