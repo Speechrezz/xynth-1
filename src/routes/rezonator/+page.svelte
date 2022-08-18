@@ -80,8 +80,17 @@
         lg:hover:scale-[102%] lg:transition-all">
     </div>
   </div>
+
+  <!-- Section 5 - Support us -->
+  <div class="bg-base-2 flex justify-center">
+    <div class="w-main flex flex-col align-middle mb-96">
+      <h1 class="text-h1 text-header-1 pt-24 lg:pt-24 pb-2">Support us</h1>
+      <a href="https://xynth.gumroad.com/l/rezonator" class="mx-auto mt-8 mb-4 lg:mb-12">
+        <button class="btn">Buy on Gumroad ($25)
+          <img src="img/RightArrow.svg" alt="Arrow" class="ml-3 my-auto">
+        </button>
+      </a>
+    </div>
+  </div>
+  <Footer />
 </main>
-
-
-
-<!-- <Footer /> -->

@@ -50,3 +50,24 @@
     @apply text-center text-xl lg:text-2xl;
   }
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #20242D;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7B7E84;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #84878F;
+}

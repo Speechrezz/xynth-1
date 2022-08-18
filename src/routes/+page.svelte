@@ -41,6 +41,5 @@
         lg:hover:scale-[102%] lg:transition-all">
     </div>
   </div>
+<Footer />
 </main>
-
-<!-- <Footer /> -->
