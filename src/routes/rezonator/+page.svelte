@@ -23,7 +23,7 @@
 
   <!-- Section 1 -->
   <div class="bg-neutral-1 w-full flex flex-col align-middle xl:bg-blob-2">
-    <div class="xl:bg-blob-1 h-[480px] w-[480px] absolute"></div>
+    <div class="hidden xl:block bg-blob-1 h-[480px] w-[480px] absolute"></div>
     <div class="w-main flex flex-col align-middle mt-16 mx-auto">
       <h1 class="text-h1 text-base-1 pt-8 lg:pt-32 pb-2">REZONATOR</h1>
       <p class="text-h2 text-base-2 pt-2 border-t-2 border-slate-600 mx-auto px-4">
@@ -36,7 +36,7 @@
       </a>
       <img src="img/rezonator.png" alt="Rezonator" class="rounded-xl z-10 mb-4 shadow-md 
         lg:rounded-3xl lg:shadow-2xl lg:-mb-[26rem]
-        hover:scale-[102%] transition-all">
+        lg:hover:scale-[102%] lg:transition-all">
     </div>
   </div>
 
@@ -46,11 +46,42 @@
   <div class="bg-base-3 flex justify-center">
     <div class="w-main flex flex-col align-middle">
       <h1 class="text-h1 text-header-1 pt-32 lg:pt-[32rem] pb-2">Tuning</h1>
-      <p class="text-h3 text-neutral-1 pt-2 pb-32 mx-auto">
+      <p class="text-h3 text-neutral-1 pt-2 pb-16 mx-auto">
         Easily tune the six included resonators to create beautiful harmonies. Turn even the harshest of sounds into pleasing chords.
       </p>
+      <img src="img/tuning.png" alt="Zoom in on Rezonator" class="rounded-xl z-10 mb-4 shadow-md
+        lg:rounded-3xl lg:shadow-2xl sm:max-w-lg sm:mx-auto
+        lg:hover:scale-[102%] lg:transition-all">
+    </div>
+  </div>
+
+  <!-- Section 3 -->
+  <div class="bg-base-3 flex justify-center">
+    <div class="w-main flex flex-col align-middle">
+      <h1 class="text-h1 text-header-1 pt-24 lg:pt-64 pb-2">States</h1>
+      <p class="text-h3 text-neutral-1 pt-2 pb-16 mx-auto">
+        Program multiple chords/harmonies and switch between them with a single slider.
+      </p>
+      <img src="img/states.png" alt="States demonstration" class="rounded-xl z-10 mb-4 shadow-md
+        lg:rounded-3xl lg:shadow-2xl lg:max-w-4xl lg:mx-auto
+        lg:hover:scale-[102%] lg:transition-all">
+    </div>
+  </div>
+
+  <!-- Section 4 -->
+  <div class="bg-base-3 flex justify-center">
+    <div class="w-main flex flex-col align-middle">
+      <h1 class="text-h1 text-header-1 pt-24 lg:pt-64 pb-2">FX</h1>
+      <p class="text-h3 text-neutral-1 pt-2 pb-16 mx-auto">
+        Choose between the available filter, reverb and stereo-width effects to effect only the wet signal.
+      </p>
+      <img src="img/settings.png" alt="Settings page" class="rounded-xl z-10 mb-4 shadow-md
+        lg:rounded-3xl lg:shadow-2xl
+        lg:hover:scale-[102%] lg:transition-all">
     </div>
   </div>
 </main>
+
+
 
 <!-- <Footer /> -->

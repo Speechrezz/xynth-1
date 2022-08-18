@@ -30,7 +30,7 @@
       <a href="/rezonator">
         <img src="img/rezonator.png" alt="Rezonator" class="rounded-xl z-10 mb-12 shadow-md 
         lg:mb-16 lg:rounded-3xl lg:shadow-2xl
-        hover:scale-[102%] transition-all">
+        lg:hover:scale-[102%] lg:transition-all">
       </a>
     </div>
     <div class="flex-1">
@@ -38,7 +38,7 @@
       <p class="text-h3 hidden mt-2 mb-12 lg:block">More plugins coming soon...</p>
       <img src="img/nullPlugin.svg" alt="Placeholder plugin" class="rounded-xl z-10 mb-12 shadow-md
         lg:mb-16 lg:rounded-3xl lg:shadow-2xl
-        hover:scale-[102%] transition-all">
+        lg:hover:scale-[102%] lg:transition-all">
     </div>
   </div>
 </main>

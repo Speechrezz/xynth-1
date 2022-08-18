@@ -19,7 +19,7 @@
     @apply bg-accent-1 w-fit mx-auto px-4 py-3 rounded-xl text-lg shadow-md flex
       sm:px-6 sm:py-5 sm:text-xl
       lg:text-2xl
-      hover:bg-accent-1-hover hover:scale-105 transition-all;
+      hover:bg-accent-1-hover hover:scale-[103%] transition-all;
   }
 
   .trans-wave {
