@@ -22,7 +22,7 @@
       <a href="/rezonator" class={index === 1 ? lookHighlighted : look}>
         <span class="my-auto">Plugins</span>
       </a>
-      <a href="#top" class={index === 2 ? lookHighlighted : look}>
+      <a href="/about" class={index === 2 ? lookHighlighted : look}>
         <span class="my-auto">About</span>
       </a>
     </div>

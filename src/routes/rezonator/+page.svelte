@@ -5,7 +5,6 @@
 
   // ============================================================================
   // Do fade in on scroll - (make sure it happens only on browser, not server)
-
   onMount(() => {
     const faders = document.querySelectorAll('.scroll-fade-in');
 
