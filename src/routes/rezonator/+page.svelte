@@ -40,7 +40,7 @@
     </div>
   </div>
 
-  <div class="lg:trans-wave lg:wave-2"></div>
+  <div class="lg:trans-wave lg:wave-3"></div>
 
   <!-- Section 2 - Tuning -->
   <div class="bg-base-3 flex justify-center">
@@ -54,6 +54,8 @@
         lg:hover:scale-[102%] lg:transition-all">
     </div>
   </div>
+
+  <div class="lg:trans-wave lg:wave-4"></div>
 
   <!-- Section 3 - States -->
   <div class="bg-base-2 flex justify-center">
