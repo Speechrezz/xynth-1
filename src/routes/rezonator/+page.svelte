@@ -29,7 +29,7 @@
       <p class="text-h2 text-base-2 pt-2 border-t-2 border-slate-600 mx-auto px-4">
         Add harmonic resonance to any sound.
       </p>
-      <a href="gumroad.com" class="mx-auto mt-16 mb-4 lg:mt-36 lg:mb-12">
+      <a href="https://xynth.gumroad.com/l/rezonator" class="mx-auto mt-16 mb-4 lg:mt-36 lg:mb-12">
         <button class="btn">Buy on Gumroad ($25)
           <img src="img/RightArrow.svg" alt="Arrow" class="ml-3 my-auto">
         </button>

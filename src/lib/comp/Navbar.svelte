@@ -1,6 +1,5 @@
 <script>
   const baseLook = "flex-1 lg:flex-none link-nav px-6 h-full flex justify-center align-middle border-b-2 border-t-2 border-t-base-1 ";
-  //const baseLook =                   "link-nav px-6 h-full flex                align-middle border-b-2 border-t-2 border-t-base-1 ";
   const look = baseLook + "border-b-slate-600 hover:border-b-slate-500";
   const lookHighlighted = baseLook + "border-b-accent-1 hover:border-b-accent-1-bright";
 
