@@ -29,9 +29,11 @@
       <p class="text-h2 text-base-2 pt-2 border-t-2 border-slate-600 mx-auto px-4">
         Add harmonic resonance to any sound.
       </p>
-      <button class="btn mt-16 mb-4 lg:mt-36 lg:mb-12">Buy on Gumroad ($25)
-        <img src="img/RightArrow.svg" alt="Arrow" class="ml-3 my-auto">
-      </button>
+      <a href="gumroad.com" class="mx-auto mt-16 mb-4 lg:mt-36 lg:mb-12">
+        <button class="btn">Buy on Gumroad ($25)
+          <img src="img/RightArrow.svg" alt="Arrow" class="ml-3 my-auto">
+        </button>
+      </a>
       <img src="img/rezonator.png" alt="Rezonator" class="rounded-xl z-10 mb-4 shadow-md 
         lg:rounded-3xl lg:shadow-2xl lg:-mb-[26rem]
         hover:scale-[102%] transition-all">
