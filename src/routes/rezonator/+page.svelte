@@ -1,6 +1,33 @@
 <script>
   import Navbar from "$lib/comp/Navbar.svelte";
   import Footer from "$lib/comp/Footer.svelte";
+  import { onMount } from 'svelte';
+
+  // ============================================================================
+  // Do fade in on scroll - (make sure it happens only on browser, not server)
+
+  onMount(() => {
+    const faders = document.querySelectorAll('.scroll-fade-in');
+
+    const appearOptions = {
+      threshold: 0.2,
+      //rootMargin: "0px 0px 200px 0px"
+    };
+    const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) {
+          return;
+        } else {
+          entry.target.classList.add('appear');
+          appearOnScroll.unobserve(entry.target);
+        }
+      })
+    }, appearOptions);
+
+    faders.forEach(fader => {
+      appearOnScroll.observe(fader);
+    })
+  })
 </script>
 
 <style>
@@ -34,7 +61,7 @@
           <img src="img/RightArrow.svg" alt="Arrow" class="ml-3 my-auto">
         </button>
       </a>
-      <img src="img/rezonator.png" alt="Rezonator" class="rounded-xl z-10 mb-4 shadow-md 
+      <img src="img/rezonator.png" alt="Rezonator" class="rounded-xl z-10 mb-4 shadow-md animate-fadeIn
         lg:rounded-3xl lg:shadow-2xl lg:-mb-[26rem]
         lg:hover:scale-[102%] lg:transition-all">
     </div>
@@ -46,12 +73,14 @@
   <div class="bg-base-3 flex justify-center">
     <div class="w-main flex flex-col align-middle">
       <h1 class="text-h1 text-header-1 pt-32 lg:pt-[32rem] pb-2">Tuning</h1>
-      <p class="text-h3 text-neutral-1 pt-2 pb-16 mx-auto">
+      <p class="text-h3 text-neutral-1 pt-2 pb-16 mx-auto scroll-fade-in">
         Easily tune the six included resonators to create beautiful harmonies. Turn even the harshest of sounds into pleasing chords.
       </p>
-      <img src="img/tuning.png" alt="Zoom in on Rezonator" class="rounded-xl z-10 mb-32 shadow-md mx-8
-        lg:rounded-3xl lg:shadow-2xl sm:max-w-lg sm:mx-auto
-        lg:hover:scale-[102%] lg:transition-all">
+      <div class="scroll-fade-in w-3/4 mx-auto sm:max-w-lg">
+        <img src="img/tuning.png" alt="Zoom in on Rezonator" class="rounded-xl z-10 mb-32 shadow-md mx-auto
+          lg:rounded-3xl lg:shadow-2xl 
+          lg:hover:scale-[102%] lg:transition-all">
+      </div>
     </div>
   </div>
 
@@ -64,9 +93,11 @@
       <p class="text-h3 text-neutral-1 pt-2 pb-16 mx-auto">
         Program multiple chords/harmonies and switch between them with a single slider.
       </p>
-      <img src="img/states.png" alt="States demonstration" class="rounded-xl z-10 mb-32 shadow-md
-        lg:rounded-3xl lg:shadow-2xl lg:max-w-4xl lg:mx-auto
-        lg:hover:scale-[102%] lg:transition-all">
+      <div class="scroll-fade-in mx-auto">
+        <img src="img/states.png" alt="States demonstration" class="rounded-xl z-10 mb-32 shadow-md
+          lg:rounded-3xl lg:shadow-2xl lg:max-w-4xl lg:mx-auto
+          lg:hover:scale-[102%] lg:transition-all">
+      </div>
     </div>
   </div>
 
@@ -77,15 +108,17 @@
       <p class="text-h3 text-neutral-1 pt-2 pb-16 mx-auto">
         Choose between the available filter, reverb and stereo-width effects to effect only the wet signal.
       </p>
-      <img src="img/settings.png" alt="Settings page" class="rounded-xl z-10 mb-32 shadow-md
-        lg:rounded-3xl lg:shadow-2xl
-        lg:hover:scale-[102%] lg:transition-all">
+      <div class="scroll-fade-in mx-auto">
+        <img src="img/settings.png" alt="Settings page" class="rounded-xl z-10 mb-32 shadow-md
+          lg:rounded-3xl lg:shadow-2xl
+          lg:hover:scale-[102%] lg:transition-all">
+      </div>
     </div>
   </div>
 
   <!-- Section 5 - Support us -->
   <div class="bg-base-2 flex justify-center">
-    <div class="w-main flex flex-col align-middle mb-96">
+    <div class="w-main flex flex-col align-middle mb-48 scroll-fade-in">
       <h1 class="text-h1 text-header-1 pt-24 lg:pt-24 pb-2">Support us</h1>
       <a href="https://xynth.gumroad.com/l/rezonator" class="mx-auto mt-8 mb-4 lg:mb-12">
         <button class="btn">Buy on Gumroad ($25)

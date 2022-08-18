@@ -15,8 +15,27 @@ module.exports = {
         'accent-1-hover': '#42ABDD',
         'accent-1-bright': '#61BAE4',
         'accent-2': '#702EB2'
+      },
+
+      keyframes: {
+        fadeIn: {
+          from: {
+            opacity: 0,
+            transform: 'translateY(10%)'
+          },
+
+          to: {
+            opacity: 1,
+            transform: 'translateY(0)'
+          }
+        }
+      },
+
+      animation: {
+        fadeIn: 'fadeIn 500ms',
       }
     },
+
     fontFamily: {
       'sans': ['Montserrat', 'font-sans']
     }
