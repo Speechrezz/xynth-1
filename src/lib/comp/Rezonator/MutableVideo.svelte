@@ -12,8 +12,8 @@
 
 <div class="lg:hover:scale-[102%] lg:transition-all">
   <div class="relative">
-    <div class="absolute z-10 top-0 right-0 p-2 rounded-xl m-1 bg-trans-black
-      sm:p-3 sm:m-2 md:p-4">
+    <div class="absolute z-10 top-0 right-0 p-2 rounded-xl m-1 bg-trans-black cursor-pointer
+      sm:p-3 sm:m-2 md:p-4" on:click={toggleMute}>
       <img src="svg/volume-x.svg" alt="Volume toggle" bind:this={muteElement}>
     </div>
     <video autoplay muted playsinline loop loading="lazy" src={videoPath}
