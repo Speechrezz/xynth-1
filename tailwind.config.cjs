@@ -14,7 +14,8 @@ module.exports = {
         'accent-1': '#35A4DA',
         'accent-1-hover': '#42ABDD',
         'accent-1-bright': '#61BAE4',
-        'accent-2': '#702EB2'
+        'accent-2': '#702EB2',
+        'trans-black': 'rgba(0, 0, 0, 0.3)'
       },
 
       keyframes: {

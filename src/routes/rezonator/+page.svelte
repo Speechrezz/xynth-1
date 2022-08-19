@@ -2,6 +2,7 @@
   import Navbar from "$lib/comp/Navbar.svelte";
   import Footer from "$lib/comp/Footer.svelte";
   import { onMount } from 'svelte';
+  import MutableVideo from "$lib/comp/Rezonator/MutableVideo.svelte";
 
   // ============================================================================
   // Do fade in on scroll - (make sure it happens only on browser, not server)
@@ -100,7 +101,20 @@
     </div>
   </div>
 
-  <!-- Section 4 - FX -->
+  <!-- Section 4 - Midi -->
+  <div class="bg-base-2 flex justify-center">
+    <div class="w-main flex flex-col align-middle">
+      <h1 class="text-h1 text-header-1 pt-12 sm:pt-24 pb-2">Midi input</h1>
+      <p class="text-h3 text-neutral-1 pt-2 pb-16 mx-auto">
+        Need to input more complex harmonies or melodies? Switch the plugin to 'midi input' to route midi directly into the plugin.
+      </p>
+      <div class="scroll-fade-in mx-auto">
+        <MutableVideo />
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 5 - FX -->
   <div class="bg-base-2 flex justify-center">
     <div class="w-main flex flex-col align-middle">
       <h1 class="text-h1 text-header-1 pt-12 sm:pt-24 pb-2">FX</h1>
@@ -115,7 +129,7 @@
     </div>
   </div>
 
-  <!-- Section 5 - Support us -->
+  <!-- Section 6 - Support us -->
   <div class="bg-base-2 flex justify-center">
     <div class="w-main flex flex-col align-middle mb-48 scroll-fade-in">
       <h1 class="text-h1 text-header-1 pt-24 lg:pt-24 pb-2">Support us</h1>
