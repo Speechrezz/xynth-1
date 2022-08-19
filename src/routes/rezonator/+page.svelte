@@ -108,14 +108,16 @@
       <p class="text-h3 text-neutral-1 pt-2 pb-16 mx-auto">
         Need to input more complex harmonies or melodies? Switch the plugin to 'midi input' to route midi directly into the plugin.
       </p>
-      <div class="scroll-fade-in mx-auto">
+      <div class="scroll-fade-in mx-auto mb-16 sm:mb-32">
         <MutableVideo />
       </div>
     </div>
   </div>
 
+  <div class="lg:trans-wave lg:wave-5"></div>
+
   <!-- Section 5 - FX -->
-  <div class="bg-base-2 flex justify-center">
+  <div class="bg-base-3 flex justify-center">
     <div class="w-main flex flex-col align-middle">
       <h1 class="text-h1 text-header-1 pt-12 sm:pt-24 pb-2">FX</h1>
       <p class="text-h3 text-neutral-1 pt-2 pb-16 mx-auto">
@@ -130,7 +132,7 @@
   </div>
 
   <!-- Section 6 - Support us -->
-  <div class="bg-base-2 flex justify-center">
+  <div class="bg-base-3 flex justify-center">
     <div class="w-main flex flex-col align-middle mb-48 scroll-fade-in">
       <h1 class="text-h1 text-header-1 pt-24 lg:pt-24 pb-2">Support us</h1>
       <a href="https://xynth.gumroad.com/l/rezonator" class="mx-auto mt-8 mb-4 lg:mb-12">
