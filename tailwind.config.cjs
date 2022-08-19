@@ -34,12 +34,17 @@ module.exports = {
 
       animation: {
         fadeIn: 'fadeIn 500ms',
-      }
+      },
+
+      screens: {
+        '3xl': '1800px',
+        // => @media (min-width: 1800px) { ... }
+      },
     },
 
     fontFamily: {
       'sans': ['Montserrat', 'font-sans']
-    }
+    },
   },
   plugins: [],
 }

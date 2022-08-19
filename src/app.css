@@ -12,7 +12,7 @@
 
 @layer components {
   .w-main {
-    @apply w-11/12 max-w-[72rem];
+    @apply w-11/12 md:px-16 max-w-[64rem] 3xl:max-w-[72rem];
   }
 
   .btn {
