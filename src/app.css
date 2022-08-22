@@ -54,6 +54,9 @@
   .link-nav {
     @apply text-neutral-1 sm:text-xl hover:text-header-1 transition-all;
   }
+  .link-footer {
+    @apply text-neutral-1 hover:text-header-1 transition-all;
+  }
 
   .text-h1 {
     @apply text-center font-medium text-4xl sm:text-5xl lg:text-6xl xl:text-7xl;

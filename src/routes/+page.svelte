@@ -29,7 +29,7 @@
       <p class="text-h3 hidden mt-2 mb-12 lg:block">Add harmonic resonance to any sound.</p>
       <a href="/rezonator">
         <img src="img/rezonator.png" alt="Rezonator" class="rounded-xl z-10 mb-12 shadow-md animate-fadeIn
-        lg:mb-16 lg:rounded-3xl lg:shadow-2xl
+        lg:mb-16 lg:rounded-2xl lg:shadow-2xl 3xl:rounded-3xl
         lg:hover:scale-[102%] lg:transition-all">
       </a>
     </div>
@@ -37,7 +37,7 @@
       <h2 class="text-h1 text-base-1 mb-4 lg:mb-0">NOT READY</h2>
       <p class="text-h3 hidden mt-2 mb-12 lg:block">More plugins coming soon...</p>
       <img src="img/nullPlugin.svg" alt="Placeholder plugin" class="rounded-xl z-10 mb-12 shadow-md animate-fadeIn
-        lg:mb-16 lg:rounded-3xl lg:shadow-2xl
+        lg:mb-16 lg:rounded-2xl lg:shadow-2xl 3xl:rounded-3xl
         lg:hover:scale-[102%] lg:transition-all">
     </div>
   </div>

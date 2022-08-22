@@ -6,7 +6,7 @@
 </script>
 
 
-<main class="h-screen w-full overflow-x-clip absolute">
+<main class="w-full overflow-x-clip absolute">
   <Navbar index={2} />
 
   <!-- Section 1 -->
@@ -15,8 +15,6 @@
       <h1 class="text-h1 text-header-1 mt-32 mb-32">About</h1>
       <h2 class="text-h2 text-left text-neutral-1 mb-2 font-medium">Contact</h2>
       <p class="text-neutral-1 text-p1"><span class="font-medium">Email:</span> xynthaudio@gmail.com</p>
-
-      <MutableVideo />
     </div>
   </div>
 

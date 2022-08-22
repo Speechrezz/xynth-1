@@ -76,10 +76,8 @@
       <p class="text-h3 text-neutral-1 pt-2 pb-16 mx-auto scroll-fade-in">
         Easily tune the six included resonators to create beautiful harmonies. Turn even the harshest of sounds into pleasing chords.
       </p>
-      <div class="scroll-fade-in w-3/4 mx-auto sm:max-w-lg">
-        <img src="img/tuning.png" alt="Zoom in on Rezonator" class="rounded-xl z-10 mb-16 sm:mb-32 shadow-md mx-auto
-          lg:rounded-3xl lg:shadow-2xl 
-          lg:hover:scale-[102%] lg:transition-all">
+      <div class="scroll-fade-in mx-auto sm:max-w-lg mb-16 sm:mb-32">
+        <MutableVideo videoPath={"vid/PitchDemo.mp4"}/>
       </div>
     </div>
   </div>
@@ -94,9 +92,7 @@
         Program multiple chords/harmonies and switch between them with a single slider.
       </p>
       <div class="scroll-fade-in mx-auto">
-        <img src="img/states.png" alt="States demonstration" class="rounded-xl z-10 mb-16 sm:mb-32 shadow-md
-          lg:rounded-3xl lg:shadow-2xl lg:max-w-4xl lg:mx-auto
-          lg:hover:scale-[102%] lg:transition-all">
+        <MutableVideo videoPath={"vid/StatesDemo.mp4"}/>
       </div>
     </div>
   </div>
@@ -106,10 +102,10 @@
     <div class="w-main flex flex-col align-middle">
       <h1 class="text-h1 text-header-1 pt-12 sm:pt-24 pb-2">Midi input</h1>
       <p class="text-h3 text-neutral-1 pt-2 pb-16 mx-auto">
-        Need to input more complex harmonies or melodies? Switch the plugin to 'midi input' to route midi directly into the plugin.
+        Directly route midi into the Rezonator in order to create more complex melodies and harmonies.
       </p>
       <div class="scroll-fade-in mx-auto mb-16 sm:mb-32">
-        <MutableVideo />
+        <MutableVideo videoPath={"vid/MidiDemo.mp4"}/>
       </div>
     </div>
   </div>
