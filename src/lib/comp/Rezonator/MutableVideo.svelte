@@ -18,7 +18,7 @@
 
   $: $MutableVideoStore, muteVideoCallback();
 
-  // Only want muteVideoCallback() to work when everything is loaded
+  // Only want muteVideoCallback() to work when DOM is loaded.
   onMount(() => {
     muteVideoCallback = () => {
       if ($MutableVideoStore !== videoPath) {
