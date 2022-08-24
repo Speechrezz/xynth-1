@@ -9,16 +9,16 @@
 	<div class="w-full bg-base-1">
 		<div class="w-main mx-auto mt-64">
 			<h1 class="mb-16">End-User License Agreement</h1>
-      <p>Last updated: August 22, 2022</p>
 		</div>
 	</div>
 
 	<div class="w-full bg-base-2">
 		<div class="w-main mx-auto">
-			<!-- <p>
+			<p>Last updated: August 24, 2022</p>
+			<p>
 				Please read this End-User License Agreement carefully before clicking the &quot;I
 				Agree&quot; button, downloading or using Rezonator.
-			</p> -->
+			</p>
 			<h2>Interpretation and Definitions</h2>
 			<h3>Interpretation</h3>
 			<p>
@@ -31,12 +31,8 @@
 			<ul>
 				<li>
 					<p>
-						<strong>Agreement</strong> means this End-User License Agreement that forms the entire
-						agreement between You and the Company regarding the use of the Application. This
-						Agreement has been created with the help of the
-						<a href="https://www.termsfeed.com/eula-generator/" target="_blank"
-							>TermsFeed EULA Generator</a
-						>.
+						<strong>Agreement</strong> means this End-User License Agreement that forms the entire agreement
+						between You and the Company regarding the use of the Application.
 					</p>
 				</li>
 				<li>
@@ -107,6 +103,78 @@
 			<p>
 				The license that is granted to You by the Company is solely for your personal,
 				non-commercial purposes strictly in accordance with the terms of this Agreement.
+			</p>
+			<h3>License Restrictions</h3>
+			<p>You agree not to, and You will not permit others to:</p>
+			<ul>
+				<li>
+					License, sell, rent, lease, assign, distribute, transmit, host, outsource, disclose or
+					otherwise commercially exploit the Application or make the Application available to any
+					third party.
+				</li>
+				<li>
+					Copy or use the Application for any purpose other than as permitted under the above
+					section 'License'.
+				</li>
+				<li>
+					Modify, make derivative works of, disassemble, decrypt, reverse compile or reverse
+					engineer any part of the Application.
+				</li>
+				<li>
+					Remove, alter or obscure any proprietary notice (including any notice of copyright or
+					trademark) of the Company or its affiliates, partners, suppliers or the licensors of the
+					Application.
+				</li>
+			</ul>
+			<h2>Intellectual Property</h2>
+			<p>
+				The Application, including without limitation all copyrights, patents, trademarks, trade
+				secrets and other intellectual property rights are, and shall remain, the sole and exclusive
+				property of the Company.
+			</p>
+			<p>
+				The Company shall not be obligated to indemnify or defend You with respect to any third
+				party claim arising out of or relating to the Application. To the extent the Company is
+				required to provide indemnification by applicable law, the Company shall be solely
+				responsible for the investigation, defense, settlement and discharge of any claim that the
+				Application or your use of it infringes any third party intellectual property rights.
+			</p>
+			<h2>Your Suggestions</h2>
+			<p>
+				Any feedback, comments, ideas, improvements or suggestions provided by You to the Company
+				with respect to the Application shall remain the sole and exclusive property of the Company.
+			</p>
+			<p>
+				The Company shall be free to use, copy, modify, publish, or redistribute the Suggestions for
+				any purpose and in any way without any credit or any compensation to You.
+			</p>
+			<h2>Modifications to the Application</h2>
+			<p>
+				The Company reserves the right to modify, suspend or discontinue, temporarily or
+				permanently, the Application or any service to which it connects, with or without notice and
+				without liability to You.
+			</p>
+			<h3>Updates to the Application</h3>
+			<p>
+				The Company may from time to time provide enhancements or improvements to the
+				features/functionality of the Application, which may include patches, bug fixes, updates,
+				upgrades and other modifications.
+			</p>
+			<p>
+				Updates may modify or delete certain features and/or functionalities of the Application. You
+				agree that the Company has no obligation to (i) provide any Updates, or (ii) continue to
+				provide or enable any particular features and/or functionalities of the Application to You.
+			</p>
+			<p>
+				You further agree that all updates or any other modifications will be (i) deemed to
+				constitute an integral part of the Application, and (ii) subject to the terms and conditions
+				of this Agreement.
+			</p>
+			<h3>Maintenance and Support</h3>
+			<p>
+				The Company does not provide any maintenance or support for the download and use of the
+				Application. To the extent that any maintenance or support is required by applicable law,
+				the Company shall be obligated to furnish any such maintenance or support.
 			</p>
 			<h2>Third-Party Services</h2>
 			<p>
@@ -268,7 +336,7 @@
 			<h2>Contact Us</h2>
 			<p>If you have any questions about this Agreement, You can contact Us:</p>
 			<ul>
-				<li><p>By email: xynthaudio@gmail.com</p></li>
+				<li>By email: xynthaudio@gmail.com</li>
 			</ul>
 		</div>
 	</div>
@@ -283,29 +351,29 @@
 			@apply text-2xl text-header-1 sm:text-3xl lg:text-4xl font-medium text-center;
 		}
 		h2 {
-			@apply text-xl text-header-1 sm:text-2xl lg:text-3xl mt-16 mb-8 font-medium text-center;
+			@apply text-xl text-header-1 sm:text-2xl lg:text-3xl mt-16 mb-8 font-medium;
 		}
-    h3 {
+		h3 {
 			@apply text-lg text-header-1 sm:text-xl lg:text-2xl mt-12 mb-4 font-medium;
 		}
 		p {
-			@apply text-neutral-1 sm:text-lg lg:text-xl my-4;
+			@apply text-neutral-1 sm:text-lg lg:text-xl my-8;
 		}
-    ul {
-      @apply ml-8;
-    }
-    ul li {
-      @apply list-disc;
-    }
-    ul li p {
-      @apply ml-4;
-    }
+		ul {
+			@apply ml-8;
+		}
+		ul li {
+			@apply list-disc text-neutral-1 sm:text-lg lg:text-xl my-8 pl-4;
+		}
+		/* ul li p {
+			@apply ml-4;
+		} */
 	}
 
-  ul li::marker {
-    content: "\2022";
-    color: #A8ADB9;
-    font-weight: 700;
-    font-size: 1.4rem;
-  }
+	ul li::marker {
+		content: '\2022';
+		color: #a8adb9;
+		font-weight: 700;
+		font-size: 1.4rem;
+	}
 </style>

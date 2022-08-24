@@ -28,7 +28,6 @@
     }
   })
   
-
 </script>
 
 <div class="lg:hover:scale-[102%] lg:transition-all w-fit">
