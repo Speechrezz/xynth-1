@@ -28,6 +28,8 @@
       appearOnScroll.observe(fader);
     })
   })
+
+  let scroll;
 </script>
 
 <style>
@@ -44,13 +46,15 @@
   }
 </style>
 
-<Navbar index={1}/>
+<svelte:window bind:scrollY={scroll} />
 
+<Navbar index={1}/>
 <main class="h-screen w-full overflow-x-clip absolute">
 
   <!-- Section 1 - Main -->
   <div class="bg-neutral-1 w-full flex flex-col align-middle xl:bg-blob-2">
-    <div class="hidden xl:block bg-blob-1 h-[480px] w-[480px] absolute"></div>
+    <div class="hidden xl:block bg-blob-1 h-[480px] w-[480px] absolute"
+      style:transform="translateY({scroll * -0.1}px)" />
     <div class="w-main flex flex-col align-middle mt-16 mx-auto">
       <h1 class="text-h1 text-base-1 pt-8 lg:pt-32 pb-2">REZONATOR</h1>
       <p class="text-h2 text-base-2 pt-2 border-t-2 border-slate-600 mx-auto px-4">
