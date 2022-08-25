@@ -9,13 +9,20 @@
 <main class="h-screen w-full overflow-x-clip absolute">
 
   <!-- Section 1 -->
-  <div class="bg-base-1 w-full flex flex-col align-middle">
-    <div class="w-main flex flex-col align-middle mt-16 mx-auto">
+  <div class="bg-base-1 w-full flex flex-col align-middle relative -z-50">
+    <div class="w-main flex flex-col align-middle mt-16 mx-auto relative">
       <h1 class="text-h1 text-header-1 pt-8 lg:pt-64 pb-4">What's new?</h1>
-      <p class="text-h2 text-neutral-1 mx-2 pt-2 pb-8 sm:px-6 border-t-2 border-slate-600 
+      <p class="text-h2 text-neutral-1 mx-2 pt-8 pb-8 sm:px-6 
       sm:mx-auto lg:pb-72">
         Scroll down to learn more about our latest updates.
       </p>
+    </div>
+    <div class="absolute hidden xl:block w-full overflow-clip -z-20">
+      <div class="relative bg-base-4 rounded-full   w-[28rem] h-[28rem] -top-2 -left-2"></div>
+      <div class="relative bg-accent-2 rounded-full w-[15rem] h-[15rem]  top-20 left-96"></div>
+
+      <div class="relative bg-accent-1 rounded-full w-[10rem] h-[10rem] bottom-[26rem] left-[calc(100vw-32rem)] z-10"></div>
+      <div class="relative bg-base-4 rounded-full   w-[46rem] h-[46rem] bottom-[40rem] left-[calc(100vw-32rem)] "></div>
     </div>
   </div>
 

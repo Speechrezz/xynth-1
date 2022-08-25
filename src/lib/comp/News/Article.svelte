@@ -3,7 +3,7 @@
 		<h3 class="text-h2-lg text-neutral-1 py-2 md:py-6">New plugin</h3>
 		<h2 class="text-h1-sm text-header-1 pb-4 md:pb-8">REZONATOR</h2>
 	</div>
-	<div class="text-p1 px-12 py-6 indent-8">
+	<div class="text-p1 px-2 pt-6 pb-1 md:px-12 sm:py-6 indent-8">
 		<p class="mb-4">
 			Inspired by Ableton Live’s Resonators plugin, we have created our own harmonic resonator! In
 			addition to the standard features found in Live’s utility, the
