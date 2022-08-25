@@ -1,7 +1,7 @@
-<article class="bg-neutral-2 rounded-3xl shadow-lg">
+<article class="bg-neutral-2 rounded-3xl shadow-2xl">
 	<div class="bg-base-2 rounded-t-3xl">
-		<h3 class="text-h2-lg text-neutral-1 py-6">New plugin</h3>
-		<h2 class="text-h1-sm text-header-1 pb-8">REZONATOR</h2>
+		<h3 class="text-h2-lg text-neutral-1 py-2 md:py-6">New plugin</h3>
+		<h2 class="text-h1-sm text-header-1 pb-4 md:pb-8">REZONATOR</h2>
 	</div>
 	<div class="text-p1 px-12 py-6 indent-8">
 		<p class="mb-4">
@@ -23,11 +23,16 @@
 			built in array of effects, mainly an EQ and reverb, which both only get applied to the wet
 			signal.
 		</p>
+    <a href="/rezonator" class="mx-auto">
+      <button class="btn-sm mt-8">Learn more
+        <img src="img/RightArrow.svg" alt="Arrow" class="ml-4 my-auto">
+      </button>
+    </a>
 		<img
 			src="img/rezonator.png"
 			alt="Rezonator"
 			class="rounded-xl z-10 mt-8 mb-4 shadow-md animate-fadeIn
-        lg:rounded-3xl lg:shadow-lg
+        lg:rounded-3xl
         lg:hover:scale-[102%] lg:transition-all"
 		/>
 	</div>
