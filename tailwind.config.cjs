@@ -10,6 +10,7 @@ module.exports = {
         'base-4': '#363B4A',
         'base-5': '#3C4353',
         'neutral-1': '#A8ADB9',
+        'neutral-2': '#B1B5C0',
         'header-1': '#D4D5DA',
         'accent-1': '#35A4DA',
         'accent-1-hover': '#42ABDD',

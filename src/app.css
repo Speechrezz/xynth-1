@@ -61,8 +61,14 @@
   .text-h1 {
     @apply text-center font-medium text-4xl sm:text-5xl lg:text-6xl xl:text-7xl;
   }
+  .text-h1-sm {
+    @apply text-center font-medium text-3xl sm:text-4xl lg:text-5xl xl:text-6xl;
+  }
   .text-h2 {
     @apply text-center text-xl sm:text-2xl lg:text-3xl;
+  }
+  .text-h2-lg {
+    @apply text-center font-medium text-2xl sm:text-3xl lg:text-4xl;
   }
   .text-h3 {
     @apply text-center text-xl lg:text-2xl;
