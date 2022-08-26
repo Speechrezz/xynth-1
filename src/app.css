@@ -46,11 +46,8 @@
   .wave-3 {
     @apply aspect-[2560/100] bg-[url('$lib/svg/WaveTransition3.svg')] -mt-16;
   }
-  .wave-3 {
-    @apply aspect-[2560/100] bg-[url('$lib/svg/WaveTransition3.svg')] -mt-16;
-  }
   .wave-4 {
-    @apply aspect-[512/9] bg-[url('$lib/svg/WaveTransition4.svg')] -mt-16;
+    @apply aspect-[512/9] bg-[url('$lib/svg/WaveTransition4.svg')] -mt-[1vw];
   }
   .wave-5 {
     @apply aspect-[512/9] bg-[url('$lib/svg/WaveTransition5.svg')] -mt-16;

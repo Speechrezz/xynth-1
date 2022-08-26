@@ -1,5 +1,5 @@
-<article class="bg-neutral-2 rounded-3xl shadow-2xl">
-	<div class="bg-base-2 rounded-t-3xl">
+<article class="bg-neutral-2 rounded-xl sm:rounded-3xl shadow-2xl">
+	<div class="bg-base-2 rounded-t-xl sm:rounded-t-3xl">
 		<h3 class="text-h2-lg text-neutral-1 py-2 md:py-6">New plugin</h3>
 		<h2 class="text-h1-sm text-header-1 pb-4 md:pb-8">REZONATOR</h2>
 	</div>

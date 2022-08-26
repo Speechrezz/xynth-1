@@ -32,30 +32,15 @@
   let scroll;
 </script>
 
-<style>
-  @tailwind components;
-
-  @layer components {
-    .bg-blob-1 {
-      @apply bg-no-repeat bg-cover bg-[url('$lib/svg/TopBlob.svg')];
-    }
-
-    .bg-blob-2 {
-      @apply bg-no-repeat bg-[length:480px] bg-[url('$lib/svg/BottomBlob.svg')] bg-right-bottom;
-    }
-  }
-</style>
-
 <svelte:window bind:scrollY={scroll} />
 
 <Navbar index={1}/>
 <main class="h-screen w-full overflow-x-clip absolute">
 
   <!-- Section 1 - Main -->
-  <div class="bg-neutral-1 w-full flex flex-col align-middle xl:bg-blob-2">
-    <div class="hidden xl:block bg-blob-1 h-[480px] w-[480px] absolute"
-      style:transform="translateY({scroll * -0.1}px)" />
-    <div class="w-main flex flex-col align-middle mt-16 mx-auto">
+  <div class="bg-neutral-1 w-full flex flex-col align-middle relative">
+    <!-- Header -->
+    <div class="w-main flex flex-col align-middle mt-16 mx-auto relative">
       <h1 class="text-h1 text-base-1 pt-8 lg:pt-32 pb-2">REZONATOR</h1>
       <p class="text-h2 text-base-2 pt-2 border-t-2 border-slate-600 mx-auto px-4">
         Add harmonic resonance to any sound.
@@ -65,16 +50,23 @@
           <img src="img/RightArrow.svg" alt="Arrow" class="ml-3 my-auto">
         </button>
       </a>
-      <img src="img/rezonator.png" alt="Rezonator" class="rounded-xl z-10 mb-4 shadow-md animate-fadeIn
+      <img src="img/rezonator.png" alt="Rezonator" class="rounded-xl z-20 mb-4 shadow-md animate-fadeIn
         lg:rounded-3xl lg:shadow-2xl lg:-mb-[26rem]
         lg:hover:scale-[102%] lg:transition-all">
     </div>
+
+    <!-- Background -->
+    <div class="hidden xl:block absolute" style:transform="translateY({scroll * 0.2}px)">
+      <img src="svg/TopBlob.svg" alt="Top Blob" class="relative">
+      <img src="svg/BottomBlob.svg" alt="Bottom Blob"
+        class="relative -right-[calc(100vw-30rem)] bottom-48">
+    </div>
   </div>
 
-  <div class="lg:trans-wave lg:wave-3"></div>
+  <div class="lg:trans-wave lg:wave-3 z-10 relative"></div>
 
   <!-- Section 2 - Tuning -->
-  <div class="bg-base-3 flex justify-center">
+  <div class="bg-base-3 flex justify-center relative z-10">
     <div class="w-main flex flex-col align-middle">
       <h1 class="text-h1 text-header-1 pt-32 lg:pt-[32rem] pb-2">Tuning</h1>
       <p class="text-h3 text-neutral-1 pt-2 pb-16 mx-auto scroll-fade-in">
@@ -86,7 +78,7 @@
     </div>
   </div>
 
-  <div class="lg:trans-wave lg:wave-4"></div>
+  <div class="lg:trans-wave lg:wave-4 relative z-10"></div>
 
   <!-- Section 3 - States -->
   <div class="bg-base-2 flex justify-center">
