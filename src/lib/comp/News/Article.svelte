@@ -25,7 +25,7 @@
 		</p>
     <a href="/rezonator" class="mx-auto">
       <button class="btn-sm mt-8">Learn more
-        <img src="img/RightArrow.svg" alt="Arrow" class="ml-4 my-auto">
+        <img src="img/RightArrow.svg" alt="Arrow" class="w-6 ml-4 my-auto">
       </button>
     </a>
 		<img
