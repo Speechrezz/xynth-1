@@ -6,7 +6,7 @@
       <span class="text-slate-500">|</span> -->
       <a href="/legal/eula" class="link-footer">License agreement</a> 
       <span class="text-slate-500">|</span>
-      <a href="/about" class="link-footer">Contact</a>
+      <a href="/contact" class="link-footer">Contact</a>
     </span>
   </div>
 </nav>
