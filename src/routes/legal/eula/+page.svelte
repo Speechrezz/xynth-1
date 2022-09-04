@@ -139,6 +139,7 @@
 				responsible for the investigation, defense, settlement and discharge of any claim that the
 				Application or your use of it infringes any third party intellectual property rights.
 			</p>
+			<p>VST is a trademark of Steinberg Media Technologies GmbH.</p>
 			<h2>Your Suggestions</h2>
 			<p>
 				Any feedback, comments, ideas, improvements or suggestions provided by You to the Company
