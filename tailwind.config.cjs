@@ -38,6 +38,7 @@ module.exports = {
 
       screens: {
         '3xl': '1800px',
+        '4xl': '2000px',
         // => @media (min-width: 1800px) { ... }
       },
     },

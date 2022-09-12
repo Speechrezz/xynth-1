@@ -12,13 +12,13 @@
 
 @layer components {
   .w-main {
-    @apply w-11/12 md:px-16 max-w-[64rem] 3xl:max-w-[72rem];
+    @apply w-11/12 md:px-16 max-w-[64rem] 4xl:max-w-[72rem];
   }
 
   .btn {
     @apply bg-accent-1 w-fit mx-auto px-4 py-3 rounded-lg text-lg shadow-md flex
       sm:px-6 sm:py-5 sm:text-xl sm:rounded-xl
-      lg:text-2xl
+      4xl:text-2xl
       hover:bg-accent-1-hover hover:scale-[103%] transition-all;
   }
   .btn-sm {
@@ -55,26 +55,26 @@
 
 
   .link-nav {
-    @apply text-neutral-1 sm:text-xl hover:text-header-1 transition-all;
+    @apply text-neutral-1 sm:text-lg 4xl:text-xl hover:text-header-1 transition-all;
   }
   .link-footer {
     @apply text-neutral-1 hover:text-header-1 transition-all;
   }
 
   .text-h1 {
-    @apply text-center font-medium text-4xl sm:text-5xl lg:text-6xl xl:text-7xl;
+    @apply text-center font-medium text-4xl sm:text-5xl lg:text-6xl 4xl:text-7xl;
   }
   .text-h1-sm {
-    @apply text-center font-medium text-3xl sm:text-4xl lg:text-5xl xl:text-6xl;
+    @apply text-center font-medium text-3xl sm:text-4xl lg:text-5xl 4xl:text-6xl;
   }
   .text-h2 {
-    @apply text-center text-xl sm:text-2xl lg:text-3xl;
+    @apply text-center text-xl sm:text-2xl 4xl:text-3xl;
   }
   .text-h2-lg {
-    @apply text-center md:font-medium text-2xl sm:text-3xl lg:text-4xl;
+    @apply text-center md:font-medium text-2xl sm:text-3xl 4xl:text-4xl;
   }
   .text-h3 {
-    @apply text-center text-xl lg:text-2xl;
+    @apply text-center text-xl 4xl:text-2xl;
   }
 
   .text-p1 {

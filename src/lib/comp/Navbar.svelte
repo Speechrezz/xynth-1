@@ -6,7 +6,7 @@
   export let index = 0;
 </script>
 
-<nav class="bg-base-1 w-full h-12 sm:h-16 flex justify-center leading-[normal] fixed z-50">
+<nav class="bg-base-1 w-full h-12 sm:h-14 4xl:h-16 flex justify-center leading-[normal] fixed z-50">
   <div class="w-full lg:w-main flex lg:justify-between align-middle justify-center">
 
     <!-- Left links -->
