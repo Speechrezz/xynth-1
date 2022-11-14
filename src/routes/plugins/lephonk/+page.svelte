@@ -17,7 +17,7 @@
           <img src="/img/RightArrow.svg" alt="Right Arrow" class='ml-4 my-auto filter invert'>
         </button>
       </a>
-      <div class='flex space-x-2 md:space-x-16 mt-8 mx-auto'>
+      <div class='flex space-x-2 md:space-x-16 mt-8 mx-auto justify-center'>
         <img src="/img/LePhonk2.png" alt="" class='mt-8 mb-32 aspect-[618/1273] h-auto w-1/3 rounded-lg shadow-lg'>
         <img src="/img/LePhonk3.png" alt="" class='mt-8 mb-32 aspect-[618/1273] h-auto w-1/3 rounded-lg shadow-lg'>
         <img src="/img/LePhonk4.png" alt="" class='mt-8 mb-32 aspect-[618/1273] h-auto w-1/3 rounded-lg shadow-lg'>
