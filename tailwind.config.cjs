@@ -8,6 +8,7 @@ module.exports = {
         'base-2': '#20242D',
         'base-3': '#252933',
         'base-4': '#373A42',
+        'base-5': '#252428',
         'neutral-1': '#A8ADB9',
         'neutral-2': '#B1B5C0',
         'header-1': '#D4D5DA',

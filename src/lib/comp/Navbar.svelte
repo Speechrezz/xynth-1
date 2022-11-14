@@ -19,7 +19,7 @@
       <a href="/" class={index === 0 ? lookHighlighted : look}>
         <span class="my-auto">Home</span>
       </a>
-      <a href="/rezonator" class={index === 1 ? lookHighlighted : look}>
+      <a href="/plugins" class={index === 1 ? lookHighlighted : look}>
         <span class="my-auto">Plugins</span>
       </a>
       <a href="/news" class={index === 2 ? lookHighlighted : look}>

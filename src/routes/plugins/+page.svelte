@@ -3,20 +3,18 @@
   import Footer from "$lib/comp/Footer.svelte";
 </script>
 
-<Navbar index={0}/>
+<Navbar index={1}/>
 
-<main class="w-full overflow-x-clip absolute">
-
-  <!-- Section 1 -->
-  <div class="bg-base-1 w-full flex flex-col align-middle">
-    <div class="w-main flex flex-col align-middle mt-16 mx-auto">
-      <h1 class="text-h1 text-header-1 pt-8 lg:pt-32 pb-4">Xynth</h1>
-      <p class="text-h2 text-neutral-1 mx-2 pt-2 sm:px-6 border-t-2 border-slate-600 sm:mx-auto">Software for producers, by producers.</p>
-      <a href="/rezonator" class="mx-auto mt-16 mb-4 lg:mt-28 4xl:mt-36 lg:mb-20 4xl:mb-24">
-        <button class="btn">View plugins
-          <img src="img/RightArrow.svg" alt="Arrow" class="ml-4 my-auto">
-        </button>
-      </a>
+<main class='h-full w-full overflow-x-clip'>
+  <div class='bg-base-1 h-full pt-16'>
+    <div class='w-main flex flex-col mx-auto'>
+      <img src="img/Plugins-header.svg" alt="Plugin section header" class='w-96 mt-24 mx-auto'>
+      <span class='text-neutral-2 mt-32 mx-auto text-lg text-center'>
+        Xynth Audio's full list of plugin tools.
+      </span>
+      <span class='text-neutral-2 mt-8 mb-24 mx-auto text-lg text-center'>
+        Each plugin has gone through a careful process of creation, beta testing and feedback from the community.
+      </span>
     </div>
   </div>
 
@@ -52,5 +50,6 @@
         lg:hover:scale-[102%] lg:transition-all w-[50rem]">
     </div>
   </div>
-  <Footer />
-</main>
+  </main>
+
+<Footer />
