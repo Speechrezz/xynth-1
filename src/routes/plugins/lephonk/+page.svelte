@@ -6,7 +6,7 @@
 <Navbar index={1}/>
 
 <main class='h-full w-full'>
-  <div class='bg-base-5 h-full w-screen pt-16 bg-[url("/img/LePhonkFireBG.webp")] bg-no-repeat bg-cover lg:bg-contain bg-top'>
+  <div class='bg-base-5 h-full w-full pt-16 bg-[url("/img/LePhonkFireBG.webp")] bg-no-repeat bg-cover lg:bg-contain bg-top'>
     <div class='w-main flex flex-col mx-auto'>
       <span class='text-5xl text-white mt-24 font-semibold mx-auto drop-shadow-md text-center'>LE PHONK</span>
       <div class='max-w-[26rem] w-11/12 border-b-[1px] border-header-1 mx-auto mt-4'></div>
@@ -17,7 +17,7 @@
           <img src="/img/RightArrow.svg" alt="Right Arrow" class='ml-4 my-auto filter invert'>
         </button>
       </a>
-      <div class='flex space-x-2 md:space-x-16 mt-8'>
+      <div class='flex space-x-2 md:space-x-16 mt-8 mx-auto'>
         <img src="/img/LePhonk2.png" alt="" class='mt-8 mb-32 aspect-[618/1273] h-auto w-1/3 rounded-lg shadow-lg'>
         <img src="/img/LePhonk3.png" alt="" class='mt-8 mb-32 aspect-[618/1273] h-auto w-1/3 rounded-lg shadow-lg'>
         <img src="/img/LePhonk4.png" alt="" class='mt-8 mb-32 aspect-[618/1273] h-auto w-1/3 rounded-lg shadow-lg'>
@@ -52,7 +52,7 @@
         <span class='text-white text-4xl font-semibold mx-auto'>- Skins -</span>
         <span class='text-header-1 text-xl text-center mt-6'>Compared to the rest of this intense plugin, Le Fonz is silky.</span>
         <span class='text-header-1 text-xl text-center mb-6'>Soft clip your sound with Le Fonz gentle touch.</span>
-        <div class='flex space-x-2 md:space-x-16'>
+        <div class='flex space-x-2 md:space-x-16 mx-auto'>
           <img src="/img/LePhonk2.png" alt="" class='mt-8 mb-32 aspect-[618/1273] h-auto w-1/3 rounded-lg shadow-lg'>
           <img src="/img/LePhonk3.png" alt="" class='mt-8 mb-32 aspect-[618/1273] h-auto w-1/3 rounded-lg shadow-lg'>
           <img src="/img/LePhonk4.png" alt="" class='mt-8 mb-32 aspect-[618/1273] h-auto w-1/3 rounded-lg shadow-lg'>
