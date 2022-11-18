@@ -64,7 +64,7 @@
 
       <div class='flex flex-col w-full mt-20 md:mt-32 scroll-fade-in'>
         <span class='text-white text-4xl font-semibold mx-auto mt-4'>- Le Ottz -</span>
-        <span class='text-header-1 text-lg md:text-xl text-center mt-6'>Did you know OTT stands for “Official Terrifying Tourment”?</span>
+        <span class='text-header-1 text-lg md:text-xl text-center mt-6'>Did you know OTT stands for “Official Terrifying Torment”?</span>
         <span class='text-header-1 text-lg md:text-xl text-center'>Well it does now.</span>
         <img src="/img/LeOttz.png" alt="Zekete screenshot" class='w-3/4 md:w-1/3 mx-auto rounded-lg shadow-lg mt-8 md:mt-16'>
       </div>
