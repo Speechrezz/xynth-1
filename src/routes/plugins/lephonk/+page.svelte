@@ -39,7 +39,8 @@
       <div class='max-w-[26rem] w-11/12 border-b-[1px] border-header-1 mx-auto mt-4'></div>
       <span class='text-lg text-white mx-auto mt-4 drop-shadow-md text-center'>The distortion plugin you will ever own.</span>
       <a href="https://xynth.gumroad.com/l/phonk">
-        <button class='btn bg-orange-700 hover:bg-orange-600 mt-4 py-2 rounded-lg text-white font-medium'>
+        <button class='btn bg-orange-700 hover:bg-orange-600 mt-4 py-2 rounded-lg text-white font-medium
+        4xl:text-lg sm:text-lg'>
           <span>Free on Gumroad</span>
           <img src="/img/RightArrow.svg" alt="Right Arrow" class='ml-4 my-auto filter invert'>
         </button>
@@ -86,10 +87,12 @@
         </div>
       </div>
 
-      <div class='flex flex-col justify-center w-full mt-24 mb-32 bg-[url("/img/XynthBigLogo.svg")] bg-no-repeat bg-center pt-10 pb-20 bg-contain scroll-fade-in'>
+      <div class='flex flex-col justify-center w-full mt-24 mb-32 bg-[url("/img/XynthBigLogo.svg")] 
+        bg-no-repeat bg-center pt-10 pb-20 bg-contain scroll-fade-in'>
         <span class='text-white text-5xl font-medium mx-auto mt-4 drop-shadow-lg'>Available now for Free</span>
         <a href="https://xynth.gumroad.com/l/phonk">
-          <button class='btn bg-orange-700 hover:bg-orange-600 mt-6 py-2 rounded-lg text-white font-medium'>
+          <button class='btn bg-orange-700 hover:bg-orange-600 mt-6 py-2 rounded-lg text-white font-medium
+            4xl:text-lg sm:text-lg'>
             <span>Free on Gumroad</span>
             <img src="/img/RightArrow.svg" alt="Right Arrow" class='ml-4 my-auto filter invert'>
           </button>
