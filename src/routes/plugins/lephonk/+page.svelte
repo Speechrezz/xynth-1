@@ -86,7 +86,7 @@
         </div>
       </div>
 
-      <div class='flex flex-col justify-center w-full mt-24 mb-32 bg-[url("/img/XynthBigLogo.svg")] bg-no-repeat bg-center pt-10 pb-24 bg-contain scroll-fade-in'>
+      <div class='flex flex-col justify-center w-full mt-24 mb-32 bg-[url("/img/XynthBigLogo.svg")] bg-no-repeat bg-center pt-10 pb-20 bg-contain scroll-fade-in'>
         <span class='text-white text-5xl font-medium mx-auto mt-4 drop-shadow-lg'>Available now for Free</span>
         <a href="https://xynth.gumroad.com/l/phonk">
           <button class='btn bg-orange-700 hover:bg-orange-600 mt-6 py-2 rounded-lg text-white font-medium'>
