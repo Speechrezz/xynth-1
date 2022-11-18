@@ -79,7 +79,7 @@
       <div class='flex flex-col w-full mt-12 md:mt-32 scroll-fade-in'>
         <span class='text-white text-4xl font-semibold mx-auto'>- Skins -</span>
         <span class='text-header-1 text-lg md:text-xl text-center mt-6'>Choose from a variety of tasty flavors.</span>
-        <span class='text-header-1 text-lg md:text-xl text-center mb-6'>Yum.</span>
+        <span class='text-header-1 text-lg md:text-xl text-center md:mb-6'>Yum.</span>
         <div class='flex justify-center space-x-2 md:space-x-16 mx-auto'>
           <img src="/img/LePhonk2.png" alt="" class='mt-8 mb-32 aspect-[618/1273] h-auto w-1/3 rounded-lg shadow-lg'>
           <img src="/img/LePhonk3.png" alt="" class='mt-8 mb-32 aspect-[618/1273] h-auto w-1/3 rounded-lg shadow-lg'>
