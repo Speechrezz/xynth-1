@@ -57,29 +57,29 @@
     <div class='w-main flex flex-col mx-auto'>
       <div class='flex flex-col w-full scroll-fade-in'>
         <span class='text-white text-4xl font-semibold mx-auto mt-4'>- Zekete -</span>
-        <span class='text-header-1 text-xl text-center mt-6'>Go through the most intense set of distortion types you will ever lay eyes on.</span>
-        <span class='text-header-1 text-xl text-center'><strong>WARNING:</strong> Very Intense.</span>
-        <img src="/img/Zekete.png" alt="Zekete screenshot" class='w-1/3 mx-auto rounded-lg shadow-lg mt-16'>
+        <span class='text-header-1 text-lg md:text-xl text-center mt-6'>Go through the most intense set of distortion types you will ever lay eyes on.</span>
+        <span class='text-header-1 text-lg md:text-xl text-center'><strong>WARNING:</strong> Very Intense.</span>
+        <img src="/img/Zekete.png" alt="Zekete screenshot" class='w-3/4 md:w-1/3 mx-auto rounded-lg shadow-lg mt-8 md:mt-16'>
       </div>
 
-      <div class='flex flex-col w-full mt-32 scroll-fade-in'>
+      <div class='flex flex-col w-full mt-20 md:mt-32 scroll-fade-in'>
         <span class='text-white text-4xl font-semibold mx-auto mt-4'>- Le Ottz -</span>
-        <span class='text-header-1 text-xl text-center mt-6'>Did you know OTT stands for “Official Terrifying Tourment”?</span>
-        <span class='text-header-1 text-xl text-center'>Well it does now.</span>
-        <img src="/img/LeOttz.png" alt="Zekete screenshot" class='w-1/3 mx-auto rounded-lg shadow-lg mt-16'>
+        <span class='text-header-1 text-lg md:text-xl text-center mt-6'>Did you know OTT stands for “Official Terrifying Tourment”?</span>
+        <span class='text-header-1 text-lg md:text-xl text-center'>Well it does now.</span>
+        <img src="/img/LeOttz.png" alt="Zekete screenshot" class='w-3/4 md:w-1/3 mx-auto rounded-lg shadow-lg mt-8 md:mt-16'>
       </div>
 
-      <div class='flex flex-col w-full mt-32 mb-16 scroll-fade-in'>
+      <div class='flex flex-col w-full mt-20 md:mt-32 mb-16 scroll-fade-in'>
         <span class='text-white text-4xl font-semibold mx-auto mt-4'>- Le Fonz -</span>
-        <span class='text-header-1 text-xl text-center mt-6'>A lot of people think Le Fonz is just a soft clipper.</span>
-        <span class='text-header-1 text-xl text-center'>And they're right.</span>
-        <img src="/img/LeFonz.png" alt="Zekete screenshot" class='w-1/3 mx-auto rounded-lg shadow-lg mt-16'>
+        <span class='text-header-1 text-lg md:text-xl text-center mt-6'>A lot of people think Le Fonz is just a soft clipper.</span>
+        <span class='text-header-1 text-lg md:text-xl text-center'>And they're right.</span>
+        <img src="/img/LeFonz.png" alt="Zekete screenshot" class='w-3/4 md:w-1/3 mx-auto rounded-lg shadow-lg mt-8 md:mt-16'>
       </div>
 
-      <div class='flex flex-col w-full mt-32 scroll-fade-in'>
+      <div class='flex flex-col w-full mt-12 md:mt-32 scroll-fade-in'>
         <span class='text-white text-4xl font-semibold mx-auto'>- Skins -</span>
-        <span class='text-header-1 text-xl text-center mt-6'>Choose from a variety of tasty flavors.</span>
-        <span class='text-header-1 text-xl text-center mb-6'>Yum.</span>
+        <span class='text-header-1 text-lg md:text-xl text-center mt-6'>Choose from a variety of tasty flavors.</span>
+        <span class='text-header-1 text-lg md:text-xl text-center mb-6'>Yum.</span>
         <div class='flex justify-center space-x-2 md:space-x-16 mx-auto'>
           <img src="/img/LePhonk2.png" alt="" class='mt-8 mb-32 aspect-[618/1273] h-auto w-1/3 rounded-lg shadow-lg'>
           <img src="/img/LePhonk3.png" alt="" class='mt-8 mb-32 aspect-[618/1273] h-auto w-1/3 rounded-lg shadow-lg'>
@@ -87,9 +87,9 @@
         </div>
       </div>
 
-      <div class='flex flex-col justify-center w-full mt-24 mb-32 bg-[url("/img/XynthBigLogo.svg")] 
+      <div class='flex flex-col justify-center w-full md:mt-24 mb-16 md:mb-32 bg-[url("/img/XynthBigLogo.svg")] 
         bg-no-repeat bg-center pt-10 pb-20 bg-contain scroll-fade-in'>
-        <span class='text-white text-5xl font-medium mx-auto mt-4 drop-shadow-lg'>Available now for Free</span>
+        <span class='text-white text-2xl md:text-5xl font-medium mx-auto mt-4 drop-shadow-lg'>Available now for Free</span>
         <a href="https://xynth.gumroad.com/l/phonk">
           <button class='btn bg-orange-700 hover:bg-orange-600 mt-6 py-2 rounded-lg text-white font-medium
             4xl:text-lg sm:text-lg'>

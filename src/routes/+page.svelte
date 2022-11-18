@@ -43,7 +43,7 @@
       </a>
     </div>
   </div>
-  <div class='bg-neutral-1 w-full flex justify-center lg:py-16'>
+  <div class='bg-neutral-1 w-full md:flex justify-center lg:py-16 hidden'>
     <div class='flex flex-col'>
       <h2 class="text-h1 text-base-1 mb-4 lg:mb-0">NOT READY</h2>
       <p class="text-h3 hidden mt-2 mb-12 lg:block">More plugins coming soon...</p>

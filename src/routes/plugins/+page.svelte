@@ -8,11 +8,11 @@
 <main class='h-full w-full overflow-x-clip'>
   <div class='bg-base-1 h-full pt-16'>
     <div class='w-main flex flex-col mx-auto'>
-      <img src="img/Plugins-header.svg" alt="Plugin section header" class='w-96 mt-24 mx-auto'>
-      <span class='text-neutral-2 mt-32 mx-auto text-lg text-center'>
+      <img src="img/Plugins-header.svg" alt="Plugin section header" class='w-96 mt-16 md:mt-24 mx-auto'>
+      <span class='text-neutral-2 mt-16 md:mt-32 mx-auto text-lg text-center'>
         Xynth Audio's full list of plugin tools.
       </span>
-      <span class='text-neutral-2 mt-8 mb-24 mx-auto text-lg text-center'>
+      <span class='text-neutral-2 mt-8 mb-12 md:mb-24 mx-auto text-lg text-center'>
         Each plugin has gone through a careful process of creation, beta testing and feedback from the community.
       </span>
     </div>
@@ -41,7 +41,7 @@
       </a>
     </div>
   </div>
-  <div class='bg-neutral-1 w-full flex justify-center lg:py-16'>
+  <div class='bg-neutral-1 w-full md:flex justify-center lg:py-16 hidden'>
     <div class='flex flex-col'>
       <h2 class="text-h1 text-base-1 mb-4 lg:mb-0">NOT READY</h2>
       <p class="text-h3 hidden mt-2 mb-12 lg:block">More plugins coming soon...</p>
